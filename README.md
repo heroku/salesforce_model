@@ -16,7 +16,7 @@ Just inherit from SalesforceModel naming your class after the sync table:
 
     require 'salesforce_model'
 
-    class Account << SalesforceModel
+    class Account < SalesforceModel
     end
 
 For quick boostrapping in the Rails console, you can do this:
@@ -30,4 +30,3 @@ For quick boostrapping in the Rails console, you can do this:
     > Lead.count
     234
 
- 
